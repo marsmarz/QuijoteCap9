@@ -1,0 +1,137 @@
+body{
+    background-color: skyblue;
+    color: maroon;
+}
+#titulo{
+    text-align: center;
+    width: 75%;
+    margin: auto;
+}
+#main{
+    text-align: center;
+}
+@media(max-width: 1000px){
+    #imagen{
+        width:40%
+    }
+    #titulo{
+        font-size:16px;
+    }
+    #pregunta{
+        border-style:solid;
+        border-width: 4px;
+        border-color: darkblue;
+        background-color: lightblue;
+        font-size: 40px;
+    }
+    .respuesta{
+        font-size: 20px;
+        border-style:solid;
+        border-top-width: 4px;
+        border-bottom-width:4px;
+        border-color: darkblue;
+        background-color: lightblue;
+    }
+}
+@media(min-width:1000px){
+    #imagen{
+        width:20%
+    }
+    #pregunta{
+        border-style:solid;
+        border-width: 4px;
+        border-color: darkblue;
+        background-color: lightblue;
+        font-size: 50px;
+    }
+    .respuesta{
+        font-size: 28px;
+        border-style:solid;
+        border-top-width: 4px;
+        border-bottom-width:4px;
+        border-color: darkblue;
+        background-color: lightblue;
+    }
+}
+
+#juego{
+    text-align:center;
+    height: 100%;
+}
+
+#r1{
+    border-left-width: 4px;
+    border-right-width:2px;
+}
+#r2{
+    border-left-width: 2px;
+    border-right-width:2px;
+}
+#r3{
+    border-left-width: 2px;
+    border-right-width:2px;
+}
+#r4{
+    border-left-width: 2px;
+    border-right-width:4px;
+}
+#vacio{
+    color: skyblue;
+    font-size: 30px;
+}
+#puntos{
+    border-style:solid;
+    border-width: 4px;
+    border-color: darkblue;
+    background-color: lightblue;
+    font-size: 20px;
+}
+#nombre{
+    padding: 4px;
+    border-style:solid;
+    border-width: 4px;
+    border-color: darkblue;
+    background-color: lightblue;
+    font-size: 14px;
+}
+#gameover{
+    border-style:solid;
+    border-width: 4px;
+    border-color: darkblue;
+    background-color: lightblue;
+    font-size: 50px;
+    margin: 20px;
+    text-align:center;
+}
+#restart{
+    border-style:solid;
+    border-width: 4px;
+    border-color: darkblue;
+    background-color: lightblue;
+    font-size: 50px;
+    margin: 20px;
+    text-align:center;
+}
+
+#nombre2{
+    padding: 4px;
+    text-align:center;
+    border-style:solid;
+    border-width: 4px;
+    border-color: darkblue;
+    background-color: lightblue;
+    font-size: 14px;
+    margin: 20px;
+}
+
+#explicacion{
+    border-style:solid;
+    border-width: 4px;
+    border-color: darkblue;
+    background-color: lightblue;
+    margin-top: 2%;
+    margin-bottom:2%;
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align:center;
+}
